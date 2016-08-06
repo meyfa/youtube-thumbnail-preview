@@ -146,6 +146,14 @@ h1 {
     border-top: 1px solid #E8E8E8;
 }
 
+.prev-playlist-item-no {
+    display: inline-block;
+    width: 20px;
+    line-height: 40px;
+    text-align: left;
+    font-size: 13px;
+    color: #666;
+}
 .prev-playlist-item-img {
     display: inline-block;
     width: 72px;
@@ -154,7 +162,7 @@ h1 {
 }
 .prev-playlist-item-text {
     display: inline-block;
-    width: calc(100% - 80px - 72px);
+    width: calc(100% - 80px - 72px - 20px);
     padding-left: 15px;
     line-height: 20px;
     text-align: left;
