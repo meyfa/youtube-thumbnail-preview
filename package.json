@@ -1,0 +1,15 @@
+{
+  "name": "youtube-thumbnail-preview",
+  "version": "0.1.0",
+  "description": "Preview any image as a YouTube thumbnail in a variety of sizes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JangoBrick/youtube-thumbnail-preview.git"
+  },
+  "author": "JangoBrick",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/JangoBrick/youtube-thumbnail-preview/issues"
+  },
+  "homepage": "https://github.com/JangoBrick/youtube-thumbnail-preview"
+}
