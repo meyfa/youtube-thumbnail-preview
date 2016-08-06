@@ -321,7 +321,7 @@ app-thumbnail[hide-time] .thumb-time {
 
 
 @media (min-width: 1300px) {
-    .prev-grid:nth-child(6n) {
+    .prev-grid:nth-of-type(6n) {
         margin-right: 0;
     }
 }
@@ -330,7 +330,7 @@ app-thumbnail[hide-time] .thumb-time {
     .box {
         width: 1056px;
     }
-    .prev-grid:nth-child(5n) {
+    .prev-grid:nth-of-type(5n) {
         margin-right: 0;
     }
 }
@@ -339,7 +339,7 @@ app-thumbnail[hide-time] .thumb-time {
     .box {
         width: 850px;
     }
-    .prev-grid:nth-child(4n) {
+    .prev-grid:nth-of-type(4n) {
         margin-right: 0;
     }
 }
@@ -348,7 +348,7 @@ app-thumbnail[hide-time] .thumb-time {
     .box {
         width: 644px;
     }
-    .prev-grid:nth-child(3n) {
+    .prev-grid:nth-of-type(3n) {
         margin-right: 0;
     }
 }
