@@ -156,17 +156,23 @@ h1 {
     display: inline-block;
     width: calc(100% - 80px - 72px);
     padding-left: 15px;
-    font-size: 16px;
     line-height: 20px;
     text-align: left;
     vertical-align: top;
+    font-size: 13px;
+    color: #666;
+}
+.prev-playlist-item-text > strong {
+    color: #333;
+    font-weight: 500;
 }
 .prev-playlist-item-time {
     display: inline-block;
     width: 80px;
     line-height: 40px;
-    font-size: 16px;
     text-align: right;
+    font-size: 13px;
+    color: #767676;
 }
 
 
@@ -197,6 +203,13 @@ h1 {
     display: inline-block;
     padding-left: 8px;
     text-align: left;
+    font-size: 11px;
+    color: #767676;
+}
+.prev-rec-text > strong {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
 }
 
 
