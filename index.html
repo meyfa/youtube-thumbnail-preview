@@ -20,12 +20,78 @@
 
             <!-- UPLOAD AREA -->
             <div class="box">
-                
+
+                <div class="box-sec"></div>
+
             </div>
+
+
 
             <!-- PREVIEW AREA -->
             <div class="box">
-                
+
+                <!-- channel: returning visitor header -->
+                <div class="box-sec">
+
+                    <!-- "watch next" -->
+                    <div class="prev-watchnext">
+                        <div class="previmg"></div>
+                    </div>
+
+                    <!-- small suggestions -->
+                    <div class="prev-vlist">
+                        <div class="prev-vlist-item" ng-repeat="i in [0,1,2]">
+                            <div class="previmg"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- channel: section grid -->
+                <div class="box-sec">
+
+                    <div class="prev-grid" ng-repeat="i in [0,1,2,3,4,5,6,7,8,9]">
+                        <div class="previmg"></div>
+                    </div>
+
+                </div>
+
+                <!-- channel: playlist -->
+                <div class="box-sec">
+
+                    <div class="prev-playlist">
+                        <div class="prev-playlist-item" ng-repeat="i in [0,1,2,3,4]">
+                            <div class="prev-playlist-item-img">
+                                <div class="previmg"></div>
+                            </div>
+                            <div class="prev-playlist-item-text">
+                                Title of the video<br />
+                                by Uploader
+                            </div>
+                            <div class="prev-playlist-item-time">
+                                0:00:00
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- recommendations sidebar -->
+                <div class="box-sec">
+
+                    <div class="prev-rec" ng-repeat="i in [0,1,2,3,4,5,6,7]">
+                        <div class="prev-rec-img">
+                            <div class="previmg"></div>
+                        </div>
+                        <div class="prev-rec-text">
+                            Title of the video<br />
+                            Uploader<br />
+                            123,456 views
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
