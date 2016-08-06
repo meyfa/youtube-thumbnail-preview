@@ -11,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/JangoBrick/youtube-thumbnail-preview/issues"
   },
-  "homepage": "https://github.com/JangoBrick/youtube-thumbnail-preview"
+  "homepage": "https://github.com/JangoBrick/youtube-thumbnail-preview",
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
 }
