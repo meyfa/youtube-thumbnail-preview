@@ -9,6 +9,14 @@ app.controller("main", ["$scope", function ($scope) {
     $scope.imageFiles = null;
     $scope.image = null;
 
+    $scope.info = {
+        title: "Title of the video",
+        uploader: "Channel Name",
+        time: "12:34",
+        uploadtime: "42 minutes ago",
+        views: "123,456"
+    };
+
     $scope.$watch("imageFiles", function (files) {
 
         if (!files || !files.length)

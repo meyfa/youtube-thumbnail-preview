@@ -63,9 +63,9 @@
                 <div class="prev-grid" ng-repeat="i in [0,1,2,3,4,5,6,7,8,9]">
                     <app-thumbnail class="prev-grid-img"></app-thumbnail>
                     <div class="prev-grid-text">
-                        <strong>Title of the video</strong><br />
-                        Channel Name<br />
-                        123,456 views &nbsp;&bull;&nbsp; 42 minutes ago
+                        <strong>{{info.title}}</strong><br />
+                        {{info.uploader}}<br />
+                        {{info.views}} views &nbsp;&bull;&nbsp; {{info.uploadtime}}
                     </div>
                 </div>
 
@@ -79,10 +79,10 @@
                         <div class="prev-playlist-item-no">{{$index + 1}}</div>
                         <app-thumbnail hide-time class="prev-playlist-item-img"></app-thumbnail>
                         <div class="prev-playlist-item-text">
-                            <strong>Title of the video</strong><br />
-                            by Channel Name
+                            <strong>{{info.title}}</strong><br />
+                            by {{info.uploader}}
                         </div>
-                        <div class="prev-playlist-item-time">12:34</div>
+                        <div class="prev-playlist-item-time">{{info.time}}</div>
                     </div>
                 </div>
 
@@ -94,9 +94,9 @@
                 <div class="prev-rec" ng-repeat="i in [0,1,2,3,4,5,6,7]">
                     <app-thumbnail class="prev-rec-img"></app-thumbnail>
                     <div class="prev-rec-text">
-                        <strong>Title of the video</strong><br />
-                        Channel Name<br />
-                        123,456 views
+                        <strong>{{info.title}}</strong><br />
+                        {{info.uploader}}<br />
+                        {{info.views}} views
                     </div>
                 </div>
 
