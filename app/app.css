@@ -256,8 +256,23 @@ app-thumbnail[hide-time] .thumb-time {
 .prev-grid {
     display: inline-block;
     width: 196px;
-    height: 110px;
     margin: 0 10px 10px 0;
+}
+
+.prev-grid-img {
+    display: inline-block;
+    width: 196px;
+    height: 110px;
+}
+
+.prev-grid-text {
+    font-size: 11px;
+    color: #767676;
+}
+.prev-grid-text > strong {
+    font-size: 13px;
+    font-weight: 500;
+    color: #167ac6;
 }
 
 
