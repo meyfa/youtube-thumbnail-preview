@@ -39,12 +39,12 @@ a:hover, a:focus {
 .wrapper {
     display: block;
     min-height: 100%;
-    margin-bottom: -110px;
+    margin-bottom: -103px;
 }
 .wrapper:after {
     content: "";
     display: block;
-    height: 110px;
+    height: 103px;
 }
 
 
@@ -319,10 +319,24 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .footer {
     display: block;
-    height: 110px;
+    height: 103px;
     padding: 16px;
     font-size: 14px;
     line-height: 1.5em;
     background: #FFF;
+    color: #666;
     border-top: 1px solid #E8E8E8;
+}
+
+.footer > p {
+    display: block;
+    margin: 0 0 8px;
+}
+.footer > p:last-child {
+    margin: 0;
+}
+
+.footer strong {
+    font-weight: 500;
+    color: #333;
 }
