@@ -91,6 +91,19 @@ h1 {
 
 
 
+h2 {
+    display: block;
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.3em;
+    text-align: left;
+    color: #333;
+}
+
+
+
 
 
 .btngroup {
