@@ -48,15 +48,11 @@
             <div class="box-sec centered">
 
                 <!-- "watch next" -->
-                <div class="prev-watchnext">
-                    <div class="previmg" ng-style="{'background-image': 'url(\'' + image + '\')'}"></div>
-                </div>
+                <app-thumbnail class="prev-watchnext"></app-thumbnail>
 
                 <!-- small suggestions -->
                 <div class="prev-vlist">
-                    <div class="prev-vlist-item" ng-repeat="i in [0,1,2]">
-                        <div class="previmg" ng-style="{'background-image': 'url(\'' + image + '\')'}"></div>
-                    </div>
+                    <app-thumbnail class="prev-vlist-item" ng-repeat="i in [0,1,2]"></app-thumbnail>
                 </div>
 
             </div>
@@ -64,9 +60,7 @@
             <!-- channel: section grid -->
             <div class="box-sec">
 
-                <div class="prev-grid" ng-repeat="i in [0,1,2,3,4,5,6,7,8,9]">
-                    <div class="previmg" ng-style="{'background-image': 'url(\'' + image + '\')'}"></div>
-                </div>
+                <app-thumbnail class="prev-grid" ng-repeat="i in [0,1,2,3,4,5,6,7,8,9]"></app-thumbnail>
 
             </div>
 
@@ -75,19 +69,13 @@
 
                 <div class="prev-playlist">
                     <div class="prev-playlist-item" ng-repeat="i in [0,1,2,3,4]">
-                        <div class="prev-playlist-item-no">
-                            {{$index + 1}}
-                        </div>
-                        <div class="prev-playlist-item-img">
-                            <div class="previmg" ng-style="{'background-image': 'url(\'' + image + '\')'}"></div>
-                        </div>
+                        <div class="prev-playlist-item-no">{{$index + 1}}</div>
+                        <app-thumbnail hide-time class="prev-playlist-item-img"></app-thumbnail>
                         <div class="prev-playlist-item-text">
                             <strong>Title of the video</strong><br />
                             by Uploader
                         </div>
-                        <div class="prev-playlist-item-time">
-                            0:00:00
-                        </div>
+                        <div class="prev-playlist-item-time">12:34</div>
                     </div>
                 </div>
 
@@ -97,9 +85,7 @@
             <div class="box-sec centered">
 
                 <div class="prev-rec" ng-repeat="i in [0,1,2,3,4,5,6,7]">
-                    <div class="prev-rec-img">
-                        <div class="previmg" ng-style="{'background-image': 'url(\'' + image + '\')'}"></div>
-                    </div>
+                    <app-thumbnail class="prev-rec-img"></app-thumbnail>
                     <div class="prev-rec-text">
                         <strong>Title of the video</strong><br />
                         Uploader<br />

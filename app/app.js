@@ -56,3 +56,16 @@ app.directive("fileModel", [function () {
 
     };
 }]);
+
+
+
+app.directive("appThumbnail", [function () {
+    return {
+
+        restrict: "E",
+        scope: true,
+
+        templateUrl: "app/thumbnail.html"
+
+    };
+}]);
