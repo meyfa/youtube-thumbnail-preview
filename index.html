@@ -23,10 +23,18 @@
 
                 <div class="box-sec">
 
-                    <label class="btn primary">
-                        Select an image
-                        <input type="file" accept="image/*" file-model ng-model="imageFiles" />
-                    </label>
+                    <div class="btngroup">
+
+                        <label class="btn" onmousedown="this.blur()">
+                            Select an image
+                            <input type="file" accept="image/*" file-model ng-model="imageFiles" />
+                        </label>
+
+                        <button class="btn" onmouseup="this.blur()" ng-click="image = null">
+                            &times;
+                        </button>
+
+                    </div>
 
                 </div>
 
