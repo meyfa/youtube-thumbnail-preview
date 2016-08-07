@@ -91,7 +91,7 @@ h1 {
 
 
 
-h2 {
+.box h2 {
     display: block;
     margin: 0;
     padding-bottom: 10px;
@@ -100,6 +100,17 @@ h2 {
     line-height: 1.3em;
     text-align: left;
     color: #333;
+}
+
+.box p {
+    display: block;
+    margin: 0 0 10px;
+    font-size: 15px;
+    text-align: left;
+    line-height: 1.3em;
+}
+.box p:last-child {
+    margin: 0;
 }
 
 
