@@ -13,6 +13,7 @@
   },
   "homepage": "https://github.com/JangoBrick/youtube-thumbnail-preview",
   "dependencies": {
-    "angular": "^1.5.8"
+    "angular": "^1.5.8",
+    "angular-filemodel": "^0.1.0"
   }
 }

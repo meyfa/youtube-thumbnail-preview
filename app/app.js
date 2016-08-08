@@ -1,6 +1,6 @@
 /*global angular */
 
-var app = angular.module("youtube-thumbnail-preview", []);
+var app = angular.module("youtube-thumbnail-preview", ["ngFilemodel"]);
 
 
 
@@ -17,7 +17,7 @@ app.controller("main", ["$scope", function ($scope) {
         views: "123,456"
     };
 
-    $scope.$watch("imageFiles", function (files) {
+    $scope.$watchCollection("imageFiles", function (files) {
 
         if (!files || !files.length)
             return;
@@ -32,37 +32,8 @@ app.controller("main", ["$scope", function ($scope) {
         };
         reader.readAsDataURL(file);
 
-        $scope.imageFiles = null;
-
     });
 
-}]);
-
-
-
-app.directive("fileModel", [function () {
-    return {
-
-        restrict: "A",
-        require: "ngModel",
-
-        link: function (scope, element, attrs, ctrl) {
-
-            // file select -> model
-            element.bind("change", function (event) {
-                ctrl.$setViewValue(event.target.files);
-            });
-
-            // model -> file select
-            ctrl.$render = function () {
-                if (!ctrl.$viewValue) {
-                    element.val(null);
-                }
-            };
-
-        }
-
-    };
 }]);
 
 

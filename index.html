@@ -57,7 +57,7 @@
 
                     <label class="btn" onmousedown="this.blur()">
                         Select an image
-                        <input type="file" accept="image/*" file-model ng-model="imageFiles" />
+                        <input type="file" accept="image/*" ng-filemodel ng-model="imageFiles" />
                     </label>
 
                     <button class="btn" onmouseup="this.blur()" ng-click="image = null">
@@ -162,6 +162,7 @@
 
         <!-- dependencies -->
         <script src="node_modules/angular/angular.min.js"></script>
+        <script src="node_modules/angular-filemodel/index.js"></script>
 
         <!-- app -->
         <script src="app/app.js"></script>
