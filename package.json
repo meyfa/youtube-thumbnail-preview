@@ -4,14 +4,14 @@
   "description": "Preview any image as a YouTube thumbnail in a variety of sizes",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JangoBrick/youtube-thumbnail-preview.git"
+    "url": "git+https://github.com/meyfa/youtube-thumbnail-preview.git"
   },
-  "author": "JangoBrick",
+  "author": "Fabian Meyer",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/JangoBrick/youtube-thumbnail-preview/issues"
+    "url": "https://github.com/meyfa/youtube-thumbnail-preview/issues"
   },
-  "homepage": "https://github.com/JangoBrick/youtube-thumbnail-preview",
+  "homepage": "https://github.com/meyfa/youtube-thumbnail-preview",
   "dependencies": {
     "angular": "^1.6.0",
     "angular-filemodel": "^0.2.1"
